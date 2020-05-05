@@ -1,5 +1,6 @@
 def add(*args):
-    return args
+    print(args)
+    print(type(args))
 
 
 print(add(2, 3, 3, 4, 5))
